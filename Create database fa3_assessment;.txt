@@ -1,0 +1,11 @@
+Create database fa3_assessment;
+USE fa3_assessment;
+
+Create table passenger_details(
+FName varchar(15) NOT NULL,
+LName varchar(15) NOT NULL,
+Dest varchar(25) NOT NULL,
+Phone varchar(10)NOT NULL
+);
+
+SELECT * FROM passenger_details;
